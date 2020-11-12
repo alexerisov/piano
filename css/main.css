@@ -1,0 +1,43 @@
+html, body {
+    height: 100%;
+}
+
+body, .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e2e2e2;
+}
+
+.black-keys {
+    position: absolute;
+}
+
+.white-keys > kbd {
+    height: 200px;
+    width: 50px;
+    display: inline-block;
+    margin: 0 -3px;
+    background-color: white;
+    line-height: 350px;
+}
+
+kbd {
+    text-align: center;
+    font-family: "Georgia", sans-serif;
+    border: 1px solid gray;
+}
+
+.black-keys > kbd {
+    height: 120px;
+    width: 36px;
+    display: inline-block;
+    margin: -80px 4px 0;
+    color: white;
+    background-color: black;
+    line-height: 200px;
+}
+
+#keyT {
+    margin-left: 55px;
+}
